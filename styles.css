@@ -1,0 +1,41 @@
+
+.container {
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    
+
+}
+
+.heading {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.value {
+    font-size: 50px;
+   
+}
+.buttonWrapper {
+    
+}
+
+.btn{
+    padding: 7px 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-right: 10px;
+    background-color: rgb(223, 222, 221);
+}
+
+.btn:hover{
+    box-shadow: 2px 2px 10px black;
+
+}
+
+.btn:active{
+    background-color: rgb(155, 154, 154);
+}
